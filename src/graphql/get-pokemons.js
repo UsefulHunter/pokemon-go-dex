@@ -5,6 +5,7 @@ export const GET_POKEMONS = gql`
     pokemons(first: $first) {
       id
       name
+      number
       types
       image
       maxHP

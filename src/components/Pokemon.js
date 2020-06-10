@@ -4,7 +4,10 @@ export const Pokemon = ({ pokemon }) => {
   return (
     <div className="pokemon">
       <div className="pokemon__name">
-        <p>{pokemon.name}</p>
+        <p>
+          <span>#{pokemon.number} - </span>
+          {pokemon.name}
+        </p>
       </div>
       <div className="pokemon__types">
         {pokemon?.types?.map((type) => (
