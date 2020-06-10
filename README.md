@@ -3,7 +3,7 @@ A pokedex made w/ React and GraphQL, listing the first 150 pkmns using the api o
 
 This project is disponible at: https://braia-dex.netlify.app/
 
-![image](file:///home/brianicaro/Imagens/Screenshot_20200610_130602.png)
+![image](https://github.com/UsefulHunter/pokemon-go-dex/blob/master/Screenshot_20200610_130602.png)
 
 
 Running the project:
