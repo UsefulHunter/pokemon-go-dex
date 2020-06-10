@@ -79,22 +79,21 @@ body {
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 15px;
   justify-content: space-between;
 }
 
 .container .pokemon__attacks span {
   width: 30%;
   background-color: #f16820;
-  border-radius: 3px;
-  padding: 7px;
+  border-radius: 5px;
+  padding: 5px;
   font-weight: 700;
   color: #fff;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 12px;
   margin-bottom: 10px;
   word-wrap: break-word;
-  text-align: center;
 }
 
 .container .pokemon__meta {
@@ -104,9 +103,160 @@ body {
   padding: 0 10px;
 }
 
+.container .pokemon__meta span {
+  color: white;
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.4);
+  background-color: #7bb7b7;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
 .container .pokemon__types {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
-  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.container .pokemon__types span {
+  color: #fff;
+  font-size: 12px;
+}
+
+.pokemon__Normal {
+  background-color: #a8a878;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Fighting {
+  background-color: #c03028;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Flying {
+  background-color: #a890f0;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Poison {
+  background-color: #a040a0;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Ground {
+  background-color: #e0c068;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Rock {
+  background-color: #b8a038;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Bug {
+  background-color: #a8b820;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Ghost {
+  background-color: #705898;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Steel {
+  background-color: #b8b8d0;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Fire {
+  background-color: #f08030;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Water {
+  background-color: #6890f0;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Grass {
+  background-color: #78c850;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Electric {
+  background-color: #f8d030;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Psychic {
+  background-color: #f85888;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Ice {
+  background-color: #98d8d8;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Dragon {
+  background-color: #7038f8;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Dark {
+  background-color: #705848;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.pokemon__Fairy {
+  background-color: #ee99ac;
+  padding: 1px 3px;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+
+@media (max-width: 800px) {
+  .container .pokemon {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container .pokemon__attacks,
+  .container .pokemon__meta {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .container .pokemon__meta span,
+  .container .pokemon__attacks span,
+  .container .pokemon {
+    text-align: center;
+    width: 100%;
+  }
+  .container .pokemon__meta span {
+    margin-bottom: 10px;
+  }
 }
