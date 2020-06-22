@@ -11,7 +11,7 @@ export const Pokemon = ({ pokemon }) => {
       </div>
       <div className="pokemon__types">
         {pokemon?.types?.map((type) => (
-          <p key={`${type}`} className={`pokemon__${type}`}>
+          <p key={`${type}`} className={`pokemon__common pokemon__${type}`}>
             {type}
           </p>
         ))}
